@@ -109,6 +109,7 @@ This table contains the final result obtained after training for "T" time inteva
 
 <table align = "center">
   <tr>
+    <td><B>Serial Number</B></td>
     <td><B>Training Time</B></td>
     <td><B>Output Image</B></td>
   </tr>
