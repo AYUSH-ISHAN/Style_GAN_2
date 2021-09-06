@@ -94,4 +94,6 @@ Here, is the <a href = "https://github.com/NVlabs/stylegan2-ada-pytorch#:~:text=
 Since, I was training on Goolab Colab (niether Colab pro nor Colab pro +). So, I was not having access to Colab's V100 GPUs.<br>
 Here, is an image to show my resources.
 
-<img src = ""/>
+<img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/resoures.png"/>
+
+I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
