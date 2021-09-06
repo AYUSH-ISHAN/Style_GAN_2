@@ -154,3 +154,16 @@ This table contains the final result obtained after training for "T" time inteva
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000112.jpg" height = "300" width = "300"/></td>
   </tr>
 </table>
+
+# Training parameters and Seed File :
+
+To check the paramaters values used for training, you can refer <a href ="https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/training_options.json">'training_options.json'</a>.<br>
+
+For the seed file generated using - >
+                                    
+                                    !python generate.py --outdir=out --seeds=0-35 --class=1 \--network='./pretrained/cifar10.pkl'
+                                    
+<p align="center">                                 
+<img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/seed0017.png"/>
+</p>
+
