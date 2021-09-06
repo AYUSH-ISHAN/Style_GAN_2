@@ -148,4 +148,9 @@ This table contains the final result obtained after training for "T" time inteva
     <td align = "center">3 hr 11 min 08 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000096.jpg" height = "300" width = "300"/></td>
   </tr>
+  <tr>
+    <td align = "center">8</td>
+    <td align = "center">3 hr 41 min 31 sec</td>
+    <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000112.jpg" height = "300" width = "300"/></td>
+  </tr>
 </table>
