@@ -102,7 +102,7 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
 <table>
   <tr>
-    <td><B>Number of Hours Trained</B></td>
+    <td><B>Training Time</B></td>
     <td><B>Output Image</B></td>
   </tr>
   <tr>
