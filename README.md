@@ -86,3 +86,7 @@ modeling, both in terms of existing distribution quality metrics as well as perc
                                     Total                21523475    3392     -                 -       
 
 
+# Resources Used:
+
+There is a slight warning from my side that Style GANS 2 implementation have high compuational resources requirements.<br>
+Here, is the <a href = "https://github.com/NVlabs/stylegan2-ada-pytorch#:~:text=the%20quality%20metrics-,Requirements,Microsoft%20Visual%20Studio%5C%3CVERSION%3E%5CCommunity%5CVC%5CAuxiliary%5CBuild%5Cvcvars64.bat%22.,-Getting%20started">link</a> to have a look at the resources used by NVIDIA Researchers in their offical implementation.
