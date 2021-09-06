@@ -105,6 +105,7 @@ Here, is the ideal <a href = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/ma
 <img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/reals.jpg" height = "300" width = "300"/>
 </p>
 
+This table contains the final result obtained after training for "T" time inteval.
 
 <table align = "center">
   <tr>
@@ -113,7 +114,7 @@ Here, is the ideal <a href = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/ma
   </tr>
   <tr>
     <td>8 min 49 sec</td>
-    <td></td>
+    <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000000.jpg" height = "100" width = "100"/></td>
   </tr>
   <tr>
     <td>39 min 13 sec</td>
