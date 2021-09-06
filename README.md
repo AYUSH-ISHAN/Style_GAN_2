@@ -161,9 +161,10 @@ To check the paramaters values used for training, you can refer <a href ="https:
 
 For the seed file generated using - >
                                     
-                                    !python generate.py --outdir=out --seeds=0-35 --class=1 \--network='./pretrained/cifar10.pkl'
+    !python generate.py --outdir=out --seeds=0-35 --class=1 \--network='./pretrained/cifar10.pkl'
                                     
-<p align="center">                                 
+We get ->
+<p align="center"> 
 <img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/seed0017.png"/>
 </p>
 
