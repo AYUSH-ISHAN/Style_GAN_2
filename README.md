@@ -97,3 +97,40 @@ Here, is an image to show my resources.
 <img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/resoures.png"/>
 
 I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
+
+# Results:
+
+<table>
+  <tr>
+    <td><B>Number of Hours Trained</B></td>
+    <td><B>Output Image</B></td>
+  </tr>
+  <tr>
+    <td>8 min 49 sec</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>39 min 13 sec</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1 hr 9 min 36 sec</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1 hr 40 min 00 sec</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2 hr 10 min 22 sec</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2 hr 40 min 45 sec</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
