@@ -100,7 +100,7 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
 # Results:
 
-<table>
+<table align = "center">
   <tr>
     <td><B>Training Time</B></td>
     <td><B>Output Image</B></td>
