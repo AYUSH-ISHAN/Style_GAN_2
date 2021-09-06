@@ -113,30 +113,37 @@ This table contains the final result obtained after training for "T" time inteva
     <td><B>Output Image</B></td>
   </tr>
   <tr>
+    <td>1</td>
     <td>8 min 49 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000000.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
+    <td>2</td>
     <td>39 min 13 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000016.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
+    <td>3</td>
     <td>1 hr 9 min 36 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000032.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
+    <td>4</td>
     <td>1 hr 40 min 00 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000048.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
+    <td>5</td>
     <td>2 hr 10 min 22 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000064.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
+    <td>6</td>
     <td>2 hr 40 min 45 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000080.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
+    <td>7</td>
     <td>3 hr 11 min 08 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000096.jpg" height = "300" width = "300"/></td>
   </tr>
