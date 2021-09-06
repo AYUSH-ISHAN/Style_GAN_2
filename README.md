@@ -27,7 +27,7 @@ modeling, both in terms of existing distribution quality metrics as well as perc
 
 <h3><B>1. Discriminator Model:</B></h3>
 
-                                    Discriminator  Parameters  Buffers  Output shape      Datatype
+                         Discriminator  Parameters  Buffers  Output shape      Datatype
                                     ---            ---         ---      ---               ---     
                                     b32.fromrgb    2048        16       [4, 512, 32, 32]  float16 
                                     b32.skip       262144      16       [4, 512, 16, 16]  float16 
