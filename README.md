@@ -100,6 +100,12 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
 # Results:
 
+Here, is the ideal <a href = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/reals.jpg">CIFAR_10</a> image from which you can comapre the output of the model.
+<p align="center">
+<img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/reals.jpg" height = "300" width = "300"/>
+</p>
+
+
 <table align = "center">
   <tr>
     <td><B>Training Time</B></td>
