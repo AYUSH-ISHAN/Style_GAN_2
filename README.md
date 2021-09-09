@@ -133,9 +133,9 @@ The evaluate.py is the file used to evaluate the trained model by generating a i
      !python evaluate.py --ckpt=LOCATION_OF_THE_LAST_CHECKPOINT_SAVED_BY_THE_MODEL_(.pt file)
                                  
 # Results:
-
-    The model has been trained with <B>BATCH SIZE = 16</B> for reach iterations while other <B>hyperparameters like the learning rate, betas 
-    or alpha , image augemenatation extent and all such things where kept constant.</B>
+    
+The model has been trained with <B>BATCH SIZE = 16</B> for reach iterations while other <B>hyperparameters like the learning rate, betas 
+or alpha , image augemenatation extent and all such things where kept constant.</B>
     
     
 <h3>Table Representing Training Time vs The Number of Iteration trained :</h3>
