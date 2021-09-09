@@ -250,7 +250,7 @@ This table contains the final result obtained after training for "T" time inteva
   <tr>
     <td align = "center"><B>1</B></td>
     <td align = "center"><B>3000</B></td>
-    <td align = "center"><B><img src = "outputs/003000.png"/></B></td>
+    <td align = "center"><B><img src = "outputs/002900.png"/></B></td>
   </tr>
 </table>
 
