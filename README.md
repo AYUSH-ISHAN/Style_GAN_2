@@ -121,12 +121,7 @@ The main.py file is the file for training of the model. Run the following comman
 The evaluate.py is the file used to evaluate the trained model by generating a image from the model and see its quality.
 
      !python evaluate.py --ckpt=LOCATION_OF_THE_LAST_CHECKPOINT_SAVED_BY_THE_MODEL_(.pt file)
-                                    
-We get ->
-<p align="center"> 
-<img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/seed0017.png"/>
-</p>
-
+                                 
 # Results:
 
 Here, is the ideal <a href = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/reals.jpg">CIFAR_10</a> image from which you can comapre the output of the model.
