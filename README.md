@@ -98,6 +98,17 @@ Here, is an image to show my resources.
 
 I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
+# Dataset Loader:
+
+Here, the prepare_dataset.py file is responsible for preparing the dataset. Here, it first takes the CIFAR-10 dataset (extracted form not in .zip file).
+And then it compresses it and changes it to .dbm format (Microsoft Access Database file). By this, the dataset will be trained faster and the chances of collapsing
+of the model will get reduced.<br>
+Here, is the code to run it in your terminal.
+
+      !python prepare_data.py --out=LOCATION_OF_FOLDER_TO_SAVE_(.dbm format) --n_worker=1 --size=32 LOCATION_OF_DATASET
+
+
+
 # Training the model:
 
 The main.py file is the file for training of the model. Run the following command in your terminal to start training with default arguments.
