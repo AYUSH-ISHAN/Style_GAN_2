@@ -98,6 +98,14 @@ Here, is an image to show my resources.
 
 I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
+# Training the model:
+
+The main.py file is the file for training of the model. Run the following command in your terminal to start training with default arguments.
+
+      !python train.py --iter=NO_OF_ITERATION --batch=BATCH_SIZE path=PATH_TO_THE_LMBD_FILE
+
+
+
 # Training parameters and Seed File :
 
 To check the paramaters values used for training, you can refer <a href ="https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/training_options.json">'training_options.json'</a>.<br>
