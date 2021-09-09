@@ -101,13 +101,13 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 # FILES AND FOLDERS DESCRIPTION:
 
 <ol>
-  <li>main.py : This python file is the main execution file for training the Style Gans 2 Model.</li>
-  <li>evaluation.py : This python produces images bssed on the trained Generator model.</li>
-  <li>model.py : This python file has the code for the generator model and the descriminator model along with some other helper function.</li>
-  <li>data_maker.py : This file is responsible for converting the .zip version of datset to .mdb verwsion of it.</li>
-  <li>utility.py : This just contains some code gather the loss functions and other stuffs.
-  <li>outputs : This folder contains the output images after a certain number of epochs as indicated by their files name.</li>
-  <li>layers : This folder contains the helper functions which help in making the networks.
+  <li><B>main.py :</B> This python file is the main execution file for training the Style Gans 2 Model.</li>
+  <li><B>evaluation.py :</B> This python produces images bssed on the trained Generator model.</li>
+  <li><B>model.py :</B> This python file has the code for the generator model and the descriminator model along with some other helper function.</li>
+  <li><B>data_maker.py :</B> This file is responsible for converting the .zip version of datset to .mdb verwsion of it.</li>
+  <li><B>utility.py :</B> This just contains some code gather the loss functions and other stuffs.
+  <li><B>outputs :</B> This folder contains the output images after a certain number of epochs as indicated by their files name.</li>
+  <li><B>layers :</B> This folder contains the helper functions which help in making the networks.
 
 # Dataset Loader:
 
