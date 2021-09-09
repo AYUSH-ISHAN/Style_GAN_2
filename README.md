@@ -212,52 +212,52 @@ This table contains the final result obtained after training for "T" time inteva
     <td align = "center"><B><img src = "outputs/000000.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>2</B></td>
     <td align = "center"><B>100</B></td>
     <td align = "center"><B><img src = "outputs/000100.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>3</B></td>
     <td align = "center"><B>200</B></td>
     <td align = "center"><B><img src = "outputs/000200.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>4</B></td>
     <td align = "center"><B>400</B></td>
     <td align = "center"><B><img src = "outputs/000400.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>5</B></td>
     <td align = "center"><B>600</B></td>
     <td align = "center"><B><img src = "outputs/000600.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>6</B></td>
     <td align = "center"><B>800</B></td>
     <td align = "center"><B><img src = "outputs/000800.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>7</B></td>
     <td align = "center"><B>1000</B></td>
     <td align = "center"><B><img src = "outputs/001000.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>8</B></td>
     <td align = "center"><B>1500</B></td>
     <td align = "center"><B><img src = "outputs/001500.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>9</B></td>
     <td align = "center"><B>2000</B></td>
     <td align = "center"><B><img src = "outputs/002000.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>10</B></td>
     <td align = "center"><B>2500</B></td>
     <td align = "center"><B><img src = "outputs/002500.png"/></B></td>
   </tr>
   <tr>
-    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>11</B></td>
     <td align = "center"><B>3000</B></td>
     <td align = "center"><B><img src = "outputs/002900.png"/></B></td>
   </tr>
