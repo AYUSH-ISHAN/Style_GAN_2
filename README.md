@@ -102,16 +102,14 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
 The main.py file is the file for training of the model. Run the following command in your terminal to start training with default arguments.
 
-      !python train.py --iter=NO_OF_ITERATION --batch=BATCH_SIZE path=PATH_TO_THE_LMBD_FILE
+      !python main.py --iter=NO_OF_ITERATION --batch=BATCH_SIZE path=PATH_TO_THE_LMBD_FILE
 
 
 # Evaluating the network :
 
-To check the paramaters values used for training, you can refer <a href ="https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/training_options.json">'training_options.json'</a>.<br>
+The evaluate.py is the file used to evaluate the trained model by generating a image from the model and see its quality.
 
-For the seed file generated using - >
-                                    
-    !python generate.py --outdir=out --seeds=0-35 --class=1 \--network='./pretrained/cifar10.pkl'
+     !python evaluate.py --ckpt=LOCATION_OF_THE_LAST_CHECKPOINT_SAVED_BY_THE_MODEL_(.pt file)
                                     
 We get ->
 <p align="center"> 
@@ -130,46 +128,55 @@ This table contains the final result obtained after training for "T" time inteva
 <table align = "center">
   <tr>
     <td align = "center"><B>Serial Number</B></td>
+    <td align = "center"><B>Iterations</B></td>
     <td align = "center"><B>Training Time</B></td>
     <td align = "center"><B>Output Image</B></td>
   </tr>
   <tr>
     <td align = "center">1</td>
+    <td align = "center"><B></B></td>
     <td align = "center">8 min 49 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000000.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">2</td>
+    <td align = "center"><B></B></td>
     <td align = "center">39 min 13 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000016.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">3</td>
+    <td align = "center"><B></B></td>
     <td align = "center">1 hr 9 min 36 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000032.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">4</td>
+    <td align = "center"><B></B></td>
     <td align = "center">1 hr 40 min 00 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000048.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">5</td>
+    <td align = "center"><B></B></td>
     <td align = "center">2 hr 10 min 22 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000064.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">6</td>
+    <td align = "center"><B></B></td>
     <td align = "center">2 hr 40 min 45 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000080.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">7</td>
+    <td align = "center"><B></B></td>
     <td align = "center">3 hr 11 min 08 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000096.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">8</td>
+    <td align = "center"><B></B></td>
     <td align = "center">3 hr 41 min 31 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000112.jpg" height = "300" width = "300"/></td>
   </tr>
