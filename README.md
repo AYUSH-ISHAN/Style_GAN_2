@@ -124,10 +124,7 @@ The evaluate.py is the file used to evaluate the trained model by generating a i
                                  
 # Results:
 
-Here, is the ideal <a href = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/reals.jpg">CIFAR_10</a> image from which you can comapre the output of the model.
-<p align="center">
-<img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/reals.jpg" height = "300" width = "300"/>
-</p>
+<h3>Table Representing Training Time vs The Number of Iteration trained :</h3>
 
 This table contains the final result obtained after training for "T" time inteval.
 
@@ -192,4 +189,68 @@ This table contains the final result obtained after training for "T" time inteva
   </tr>
 </table>
 
+<h3>The Number of Iteration trained vs The Output Results:</h3>
+
+<table align = "center">
+  <tr>
+    <td align = "center"><B>Serial Number</B></td>
+    <td align = "center"><B>Iterations</B></td>
+    <td align = "center"><B>Outputs</B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>0 iteration (16 batches trained)</B></td>
+    <td align = "center"><B><img src = "outputs/000000.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>100</B></td>
+    <td align = "center"><B><img src = "outputs/000100.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>200</B></td>
+    <td align = "center"><B><img src = "outputs/000200.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>400</B></td>
+    <td align = "center"><B><img src = "outputs/000400.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>600</B></td>
+    <td align = "center"><B><img src = "outputs/000600.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>800</B></td>
+    <td align = "center"><B><img src = "outputs/000800.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>1000</B></td>
+    <td align = "center"><B><img src = "outputs/001000.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>1500</B></td>
+    <td align = "center"><B><img src = "outputs/001500.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>2000</B></td>
+    <td align = "center"><B><img src = "outputs/02000.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>2500</B></td>
+    <td align = "center"><B><img src = "outputs/02500.png"/></B></td>
+  </tr>
+  <tr>
+    <td align = "center"><B>1</B></td>
+    <td align = "center"><B>3000</B></td>
+    <td align = "center"><B><img src = "outputs/03000.png"/></B></td>
+  </tr>
+</table>
 
