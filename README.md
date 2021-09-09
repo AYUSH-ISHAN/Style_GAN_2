@@ -134,6 +134,10 @@ The evaluate.py is the file used to evaluate the trained model by generating a i
                                  
 # Results:
 
+    The model has been trained with <B>BATCH SIZE = 16</B> for reach iterations while other <B>hyperparameters like the learning rate, betas 
+    or alpha , image augemenatation extent and all such things where kept constant.</B>
+    
+    
 <h3>Table Representing Training Time vs The Number of Iteration trained :</h3>
 
 This table contains the final result obtained after training for "T" time inteval.
