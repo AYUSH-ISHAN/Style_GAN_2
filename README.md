@@ -91,7 +91,7 @@ modeling, both in terms of existing distribution quality metrics as well as perc
 There is a slight warning from my side that Style GANS 2 implementation have high compuational resources requirements.<br>
 Here, is the <a href = "https://github.com/NVlabs/stylegan2-ada-pytorch#:~:text=the%20quality%20metrics-,Requirements,Microsoft%20Visual%20Studio%5C%3CVERSION%3E%5CCommunity%5CVC%5CAuxiliary%5CBuild%5Cvcvars64.bat%22.,-Getting%20started">link</a> to have a look at the resources used by NVIDIA Researchers in their offical implementation.<br>
 
-Since, I was training on Goolab Colab (niether Colab pro nor Colab pro +). So, I was not having access to Colab's V100 GPUs.<br>
+Since, I was training on Google Colab (niether Colab pro nor in Colab pro +). So, I was not having access to Colab's V100 GPUs.<br>
 Here, is an image to show my resources.
 
 <img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/resoures.png"/>
