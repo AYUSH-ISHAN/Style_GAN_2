@@ -174,19 +174,19 @@ This table contains the final result obtained after training for "T" time inteva
   </tr>
   <tr>
     <td align = "center">6</td>
-    <td align = "center"><B></B></td>
+    <td align = "center"><B>6500</B></td>
     <td align = "center">2 hr 40 min 45 sec</td>
     
   </tr>
   <tr>
     <td align = "center">7</td>
-    <td align = "center"><B></B></td>
+    <td align = "center"><B>7500</B></td>
     <td align = "center">3 hr 11 min 08 sec</td>
    
   </tr>
   <tr>
     <td align = "center">8</td>
-    <td align = "center"><B></B></td>
+    <td align = "center"><B>8500</B></td>
     <td align = "center">3 hr 41 min 31 sec</td>
    
   </tr>
