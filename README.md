@@ -134,32 +134,38 @@ This table contains the final result obtained after training for "T" time inteva
   </tr>
   <tr>
     <td align = "center">1</td>
-    <td align = "center"><B></B></td>
-    <td align = "center">8 min 49 sec</td>
+    <td align = "center"><B>2</B></td>
+    <td align = "center">2 min 49 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000000.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">2</td>
-    <td align = "center"><B></B></td>
-    <td align = "center">39 min 13 sec</td>
+    <td align = "center"><B>200</B></td>
+    <td align = "center">5 min 18 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000016.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">3</td>
-    <td align = "center"><B></B></td>
-    <td align = "center">1 hr 9 min 36 sec</td>
+    <td align = "center"><B>500</B></td>
+    <td align = "center">13 min 9 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000032.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">4</td>
-    <td align = "center"><B></B></td>
-    <td align = "center">1 hr 40 min 00 sec</td>
+    <td align = "center"><B>1000</B></td>
+    <td align = "center">30 min 14 sec</td>
+    <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000048.jpg" height = "300" width = "300"/></td>
+  </tr>
+  <tr>
+    <td align = "center">4</td>
+    <td align = "center"><B>2600</B></td>
+    <td align = "center">1 hr 02 min 11 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000048.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
     <td align = "center">5</td>
-    <td align = "center"><B></B></td>
-    <td align = "center">2 hr 10 min 22 sec</td>
+    <td align = "center"><B>5000</B></td>
+    <td align = "center">2 hr 09 min 19 sec</td>
     <td><img src = "https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/fakes000064.jpg" height = "300" width = "300"/></td>
   </tr>
   <tr>
