@@ -1,4 +1,4 @@
-<h1> Style_GAN_2 </h1>
+<h1> Style_GAN_2 on CIFAR-10 Dataset in PyTorch</h1>
 
 # Introduction:
 
