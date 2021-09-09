@@ -101,6 +101,7 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 # FILES AND FOLDERS DESCRIPTION:
 
 <ol>
+  <li><B>SGD_final_run.ipynb :</B> This jupyter notebook file contains the demo of code execution.</li>
   <li><B>main.py :</B> This python file is the main execution file for training the Style Gans 2 Model.</li>
   <li><B>evaluation.py :</B> This python produces images bssed on the trained Generator model.</li>
   <li><B>model.py :</B> This python file has the code for the generator model and the descriminator model along with some other helper function.</li>
