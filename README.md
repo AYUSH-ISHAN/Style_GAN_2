@@ -240,17 +240,17 @@ This table contains the final result obtained after training for "T" time inteva
   <tr>
     <td align = "center"><B>1</B></td>
     <td align = "center"><B>2000</B></td>
-    <td align = "center"><B><img src = "outputs/02000.png"/></B></td>
+    <td align = "center"><B><img src = "outputs/002000.png"/></B></td>
   </tr>
   <tr>
     <td align = "center"><B>1</B></td>
     <td align = "center"><B>2500</B></td>
-    <td align = "center"><B><img src = "outputs/02500.png"/></B></td>
+    <td align = "center"><B><img src = "outputs/002500.png"/></B></td>
   </tr>
   <tr>
     <td align = "center"><B>1</B></td>
     <td align = "center"><B>3000</B></td>
-    <td align = "center"><B><img src = "outputs/03000.png"/></B></td>
+    <td align = "center"><B><img src = "outputs/003000.png"/></B></td>
   </tr>
 </table>
 
