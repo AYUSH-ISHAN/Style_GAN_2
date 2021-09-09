@@ -105,8 +105,7 @@ The main.py file is the file for training of the model. Run the following comman
       !python train.py --iter=NO_OF_ITERATION --batch=BATCH_SIZE path=PATH_TO_THE_LMBD_FILE
 
 
-
-# Training parameters and Seed File :
+# Evaluating the network :
 
 To check the paramaters values used for training, you can refer <a href ="https://github.com/AYUSH-ISHAN/Style_GAN_2/blob/main/training_options.json">'training_options.json'</a>.<br>
 
