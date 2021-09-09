@@ -98,6 +98,17 @@ Here, is an image to show my resources.
 
 I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
 
+# FILES AND FOLDERS DESCRIPTION:
+
+<ol>
+  <li>main.py : This python file is the main execution file for training the Style Gans 2 Model.</li>
+  <li>evaluation.py : This python produces images bssed on the trained Generator model.</li>
+  <li>model.py : This python file has the code for the generator model and the descriminator model along with some other helper function.</li>
+  <li>data_maker.py : This file is responsible for converting the .zip version of datset to .mdb verwsion of it.</li>
+  <li>utility.py : This just contains some code gather the loss functions and other stuffs.
+  <li>outputs : This folder contains the output images after a certain number of epochs as indicated by their files name.</li>
+  <li>layers : This folder contains the helper functions which help in making the networks.
+
 # Dataset Loader:
 
 Here, the prepare_dataset.py file is responsible for preparing the dataset. Here, it first takes the CIFAR-10 dataset (extracted form not in .zip file).
@@ -105,9 +116,7 @@ And then it compresses it and changes it to .dbm format (Microsoft Access Databa
 of the model will get reduced.<br>
 Here, is the code to run it in your terminal.
 
-      !python prepare_data.py --out=LOCATION_OF_FOLDER_TO_SAVE_(.dbm format) --n_worker=1 --size=32 LOCATION_OF_DATASET
-
-
+      !python prepare_data.py --out=LOCATION_OF_FOLDER_TO_SAVE_(.dbm format) --n_worker=NUMBER_OF_WORKERS --size=SIZE_OF_IMAGE LOCATION_OF_DATASET
 
 # Training the model:
 
