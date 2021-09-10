@@ -104,6 +104,7 @@ I was working with <B>Tesla K80</B> GPU (i.e. on a single GPU).
   <li><B>SGD_final_run.ipynb :</B> This jupyter notebook file contains the demo of code execution.</li>
   <li><B>main.py :</B> This python file is the main execution file for training the Style Gans 2 Model.</li>
   <li><B>evaluation.py :</B> This python produces images bssed on the trained Generator model.</li>
+  <li><B>execution.py :</B> This python file calls the function needed for data preparation, training and evaluation.</li>
   <li><B>model.py :</B> This python file has the code for the generator model and the descriminator model along with some other helper function.</li>
   <li><B>data_maker.py :</B> This file is responsible for converting the .zip version of datset to .mdb verwsion of it.</li>
   <li><B>utility.py :</B> This just contains some code gather the loss functions and other stuffs.
@@ -117,20 +118,41 @@ And then it compresses it and changes it to .dbm format (Microsoft Access Databa
 of the model will get reduced.<br>
 Here, is the code to run it in your terminal.
 
-      !python prepare_data.py --out=LOCATION_OF_FOLDER_TO_SAVE_(.dbm format) --n_worker=NUMBER_OF_WORKERS --size=SIZE_OF_IMAGE LOCATION_OF_DATASET
+                                  from data_maker import data_generator
+                                  data_generator(size, path, num_of_workers, out, resample="lanczos")
+    
+    Arguments of data_generator function :
+
+    size : size of image,
+    path : path to the lmbd file
+    num_of_workers : Number of worker s to allocate for multiprocessing
+    out : location to save the lmbd file format.
+    
 
 # Training the model:
 
 The main.py file is the file for training of the model. Run the following command in your terminal to start training with default arguments.
 
-      !python main.py --iter=NO_OF_ITERATION --batch=BATCH_SIZE path=PATH_TO_THE_LMBD_FILE
+                                 from main import training
+                                 training(path, iterations, batch_size, checkpoint, augment=True, wandb=True)
+    
+    Arguments of training :
 
+    path : path of lmbd file
+    iterations : number of iteration 
+    batch : batch size of each iteration
+    checkpoint : location of last checkpoint
 
 # Evaluating the network :
 
 The evaluate.py is the file used to evaluate the trained model by generating a image from the model and see its quality.
 
-     !python evaluate.py --ckpt=LOCATION_OF_THE_LAST_CHECKPOINT_SAVED_BY_THE_MODEL_(.pt file)
+                                from evaluation import final_evaluation
+                                final_evaluation(path)
+    
+    Arguments of final_evaluation :
+
+    path : path of the trained network to be feeded in generator model.
                                  
 # Results:
     
