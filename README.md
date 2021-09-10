@@ -121,12 +121,12 @@ Here, is the code to run it in your terminal.
                                   from data_maker import data_generator
                                   data_generator(size, path, num_of_workers, out, resample="lanczos")
     
-    Arguments of data_generator function :
+ Arguments of data_generator function :
 
-    size : size of image,
-    path : path to the lmbd file
-    num_of_workers : Number of worker s to allocate for multiprocessing
-    out : location to save the lmbd file format.
+ size : size of image,
+ path : path to the lmbd file
+ num_of_workers : Number of worker s to allocate for multiprocessing
+ out : location to save the lmbd file format.
     
 
 # Training the model:
@@ -136,12 +136,12 @@ The main.py file is the file for training of the model. Run the following comman
                                  from main import training
                                  training(path, iterations, batch_size, checkpoint, augment=True, wandb=True)
     
-    Arguments of training :
+ Arguments of training :
 
-    path : path of lmbd file
-    iterations : number of iteration 
-    batch : batch size of each iteration
-    checkpoint : location of last checkpoint
+ path : path of lmbd file
+ iterations : number of iteration 
+ batch : batch size of each iteration
+ checkpoint : location of last checkpoint
 
 # Evaluating the network :
 
@@ -150,9 +150,9 @@ The evaluate.py is the file used to evaluate the trained model by generating a i
                                 from evaluation import final_evaluation
                                 final_evaluation(path)
     
-    Arguments of final_evaluation :
+ Arguments of final_evaluation :
 
-    path : path of the trained network to be feeded in generator model.
+ path : path of the trained network to be feeded in generator model.
                                  
 # Results:
     
