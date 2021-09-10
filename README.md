@@ -118,8 +118,8 @@ And then it compresses it and changes it to .dbm format (Microsoft Access Databa
 of the model will get reduced.<br>
 Here, is the code to run it in your terminal.
 
-                                  from data_maker import data_generator
-                                  data_generator(size, path, num_of_workers, out, resample="lanczos")
+                   from data_maker import data_generator
+                   data_generator(size, path, num_of_workers, out, resample="lanczos")
     
  Arguments of data_generator function :
 
@@ -132,9 +132,9 @@ Here, is the code to run it in your terminal.
 # Training the model:
 
 The main.py file is the file for training of the model. Run the following command in your terminal to start training with default arguments.
-
-                                 from main import training
-                                 training(path, iterations, batch_size, checkpoint, augment=True, wandb=True)
+    
+                   from main import training
+                   training(path, iterations, batch_size, checkpoint, augment=True, wandb=True)
     
  Arguments of training :
 
@@ -147,8 +147,8 @@ The main.py file is the file for training of the model. Run the following comman
 
 The evaluate.py is the file used to evaluate the trained model by generating a image from the model and see its quality.
 
-                                from evaluation import final_evaluation
-                                final_evaluation(path)
+                   from evaluation import final_evaluation
+                   final_evaluation(path)
     
  Arguments of final_evaluation :
 
