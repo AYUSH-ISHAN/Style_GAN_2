@@ -289,4 +289,4 @@ This table contains the final result obtained after training for "T" time inteva
     <td align = "center"><B><img src = "outputs/002900.png"/></B></td>
   </tr>
 </table>
-
+   
