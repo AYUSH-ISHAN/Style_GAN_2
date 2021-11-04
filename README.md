@@ -4,6 +4,8 @@
 
 This is the simple implementation of Style GANS 2 paper (link - <a href = "https://arxiv.org/pdf/1912.04958.pdf">Style GAN 2</a>) in Pytorch on <a href = "https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10</a> dataset.<br>
 
+<B>Note: The layers and the model structure are from official NVIDIA implemetation (as given in the paper).</B>
+
 <h4> Abstract by NVIDIA Team in there paper :</h4>
 
 The style-based GAN architecture (StyleGAN) yields
